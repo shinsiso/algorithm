@@ -1,3 +1,6 @@
+#ifndef LONGESTBALANCEDSUBSTRING_H
+#define LONGESTBALANCEDSUBSTRING_H
+
 #include "stdafx.h"
 
 using namespace std;
@@ -34,3 +37,5 @@ string longestBalancedSubstring(const string& s)
 
 	return s.substr(startIdx, longestLen);
 }
+
+#endif
